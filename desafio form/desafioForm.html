@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <link rel="stylesheet" href="stylo.css" />
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Desafio Formulário</title>
+  </head>
+  <body>
+    <form action="" method="get">
+      <fieldset>
+        <legend>CADASTRO</legend>
+        <label>
+          Nome <br />
+          <input type="text" name="name" placeholder="Digite seu nome" /> <br />
+        </label><br>
+        <label>
+          Email <br />
+          <input type="email" name="email" placeholder="seuemail@gmail.com" />
+        </label><br>
+        <label>
+          <br />
+          Idade <br />
+          <input type="number" name="age" min="12" max="100" placeholder="idade maior ou igual a 12"/>
+        </label><br>
+        <label>
+          <br />
+          Data de Nascimento <br/>
+          <input type="date" name="bornDate"/><br>
+        </label><br>
+        <label>
+          Onde Você Possui Conta: <br>
+          <input type="checkbox" name="socialMedia" value="instagram"> Instagram
+          <input type="checkbox" name="socialMedia" value="youtube"> Youtube
+          <input type="checkbox" name="socialMedia" value="facebook"> Facebook
+        </label><br>
+        <label>
+          <br> Sexo <br>
+          <input type="radio" name="sex" value="m">Masculino
+          <input type="radio" name="sex" value="f">Feminino
+          <br>
+        </label><br>
+        <label>
+          Cor dos olhos <br>
+          <input type="color">
+          <br>
+        </label><br>
+        <label>
+          Biografia <br>
+          <textarea name="biografy" cols="30" rows="10"></textarea>
+          <br>
+        </label><br>
+        <label>
+          Foto do perfil <br>
+          <input type="file" name="photo" accept="image/*">
+          <br>
+        </label><br>
+        <label>
+          Telefone <br>
+          <input type="tel" name="celNumber" pattern="[0-9]{2}[0-9]{5}[0-9]{4}" placeholder="(xx) xxxxx-xxxx">
+          <br>
+        </label><br>
+        <label>
+          Link do Perfil no Linkedin <br>
+          <input type="url" name="linkedin" placeholder="https://www.linkedin.com/in/seunick/">
+          <br>
+        </label><br>
+        <label>
+          Senha <br>
+          <input type="password" name="password" placeholder="Digite sua senha">
+          <br>
+        </label><br>
+        <button type="reset" name="reset">Limpar Campos</button>
+        <button type="submit" name="send">Enviar Dados</button>
+      </fieldset>
+    </form>
+  </body>
+</html>
