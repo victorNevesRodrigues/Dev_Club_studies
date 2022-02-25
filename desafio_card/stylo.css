@@ -19,8 +19,9 @@ h2
 {color: white;}
 span
 {color: #febe01;}
-header
+a
 {
+    display: inline-block;
     color: #111;
     background-color: #febe01;
     width: 150px;
@@ -29,6 +30,7 @@ header
     font-weight: bold;
     text-align: center;
     line-height: 40px;
+    text-decoration: none;
 }
 p
 {color: #b2b2b2;}
