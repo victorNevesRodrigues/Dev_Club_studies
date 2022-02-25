@@ -1,0 +1,50 @@
+* 
+{
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+body
+{
+    background-color: rgb(255, 255, 255);
+    margin: 0px;
+    padding: 0px;
+}
+h1
+{
+    margin-top: 30px;
+    text-align: center;
+    font-weight: bold;
+}
+h2
+{color: white;}
+span
+{color: #febe01;}
+header
+{
+    color: #111;
+    background-color: #febe01;
+    width: 150px;
+    height: 40px;
+    border-radius: 3%;
+    font-weight: bold;
+    text-align: center;
+    line-height: 40px;
+}
+p
+{color: #b2b2b2;}
+div
+{
+    background-color: #111;
+    border-radius: 4px;
+    padding: 25px;
+    margin: 60px;
+}
+
+.price
+{
+    color: #febe01
+    ;
+    display: inline;
+}
+
+
