@@ -23,3 +23,9 @@ sum(1, 2, "-")
 sum(1, 2, "*")
 sum(1, 2, "/")
 sum(1, 2)
+
+const numeros = [1, 99, 11, 2, 3, 34, 5];
+for(numero of numeros){
+console.log(numero + 12);
+}
+console.log(numeros.sort())
